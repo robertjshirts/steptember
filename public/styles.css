@@ -34,7 +34,7 @@ body::before {
 .shell { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
 
 .hero {
-  min-height: 410px;
+  min-height: 280px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;

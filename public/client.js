@@ -11,7 +11,7 @@ function renderLeaderboard(entries) {
           <div class="avatar" aria-hidden="true">${player.charAt(0)}</div>
           <div class="player">
             <h3>${player}</h3>
-            <p>${index === 0 ? "Leading the pack" : index === 1 ? "Hot on the trail" : "Building momentum"}</p>
+            ${index === 0 ? "<p>Leading the pack 🐺</p>" : ""}
           </div>
           <div class="step-count">
             <strong>${numberFormat.format(steps)}</strong>
