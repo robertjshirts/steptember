@@ -1,6 +1,6 @@
 # Steptember Leaderboard
 
-A small full-stack step leaderboard with a static frontend and a serverless backend.
+A small full-stack step leaderboard with a static frontend in `public/` and a serverless backend in `api/`.
 
 ## Run locally
 
@@ -18,4 +18,4 @@ npm test
 
 ## Deploy to Vercel
 
-Import this repository in Vercel and deploy it with the default settings. Files in `api/` become serverless functions; the remaining files are served as the frontend. No environment variables or build command are required.
+Import this repository in Vercel with the **Other** framework preset and deploy it. Files in `api/` become serverless functions, while files in `public/` are served as static assets. No environment variables or build command are required.

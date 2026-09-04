@@ -3,9 +3,9 @@ import { stat } from "node:fs/promises";
 import { createServer } from "node:http";
 import { extname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { getLeaderboard } from "./lib/leaderboard.js";
+import { getLeaderboard } from "../lib/leaderboard.js";
 
-const root = fileURLToPath(new URL(".", import.meta.url));
+const root = fileURLToPath(new URL("../public/", import.meta.url));
 const port = Number(process.env.PORT) || 3000;
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
