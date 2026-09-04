@@ -5,7 +5,7 @@ A small full-stack step leaderboard with a static frontend in `public/` and a se
 ## Run locally
 
 ```sh
-npm start
+npm run dev
 ```
 
 Then open <http://localhost:3000>. The frontend fetches its data from `GET /api/leaderboard`.
@@ -18,4 +18,4 @@ npm test
 
 ## Deploy to Vercel
 
-Import this repository in Vercel with the **Other** framework preset and deploy it. Files in `api/` become serverless functions, while files in `public/` are served as static assets. No environment variables or build command are required.
+Import this repository in Vercel and deploy it. `vercel.json` explicitly selects the **Other** framework preset, skips a build command, and serves `public/` as the static output. Files in `api/` become serverless functions. No environment variables are required.
