@@ -1,4 +1,19 @@
+# Dependencies
+node_modules/
+
+# Vercel project metadata and local environment files
+.vercel/
+.env*
+!.env.example
+
+# Test and build output
+coverage/
+dist/
+result
+result-*
+
+# Local tooling
+.direnv/
+*.log
 .DS_Store
-.vercel
-node_modules
-npm-debug.log*
+

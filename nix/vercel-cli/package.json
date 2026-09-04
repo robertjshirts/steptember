@@ -1,0 +1,9 @@
+{
+  "name": "vercel-cli-nix-dependencies",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "vercel": "59.11.2"
+  }
+}
+
